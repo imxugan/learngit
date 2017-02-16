@@ -1,2 +1,2 @@
 this is Git test 
-git is good
+git is
