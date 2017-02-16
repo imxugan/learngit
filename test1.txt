@@ -1,2 +1,2 @@
 this is Git test 
-git is
+git is good but is not easy learn
