@@ -9,3 +9,4 @@ git reset --hard 18f0f
 git reflog
 git stage 
 git stage is temp area
+git diff is used for git add command execute  
