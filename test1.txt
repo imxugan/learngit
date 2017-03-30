@@ -4,3 +4,4 @@ git back
 git diff
 git log
 git log --pretty=oneline
+git reset --hard head^
