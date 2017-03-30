@@ -6,3 +6,4 @@ git log
 git log --pretty=oneline
 git reset --hard head^
 git reset --hard 18f0f
+git reflog
