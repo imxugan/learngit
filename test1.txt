@@ -7,3 +7,5 @@ git log --pretty=oneline
 git reset --hard head^
 git reset --hard 18f0f
 git reflog
+git stage 
+git stage is temp area
