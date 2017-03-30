@@ -2,3 +2,5 @@ this is Git test
 git is good but is not easy learn
 git back
 git diff
+git log
+git log --pretty=oneline
