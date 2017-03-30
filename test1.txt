@@ -10,3 +10,5 @@ git reflog
 git stage 
 git stage is temp area
 git diff is used for git add command execute  
+git stage is rember
+git stage once again
