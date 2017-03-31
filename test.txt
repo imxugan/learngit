@@ -1,0 +1,1 @@
+git checkout -- test.txt while this file commited to git resposity
