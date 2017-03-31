@@ -13,4 +13,5 @@ git diff is used for git add command execute
 git stage is rember
 git stage once again
 git tracks changes of files
+git tracks again of files
 
