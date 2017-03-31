@@ -15,4 +15,6 @@ git stage once again
 git tracks changes of files
 git tracks again of files
 git diff head -- test1.txt
+git reset head test1.txt
+git reset head test1.txt 命令可以将添加到暂存区的数据修改退回到工作区
 
