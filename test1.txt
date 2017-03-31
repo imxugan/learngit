@@ -14,4 +14,5 @@ git stage is rember
 git stage once again
 git tracks changes of files
 git tracks again of files
+git diff head -- test1.txt
 
