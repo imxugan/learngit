@@ -19,6 +19,6 @@ git reset head test1.txt
 git reset head test1.txt 命令可以将添加到暂存区的数据修改退回到工作区
 git checkout -- test1.txt again
 git checkout
-git checkout -b dev
-git checkout dev #dev是分支的名称
+git checkout -b dev #创建dev分支，并切换到dev分支
+git checkout dev #切换到dev分支，dev是分支的名称
 
