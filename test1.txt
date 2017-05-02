@@ -39,3 +39,4 @@ git push origin master
 git push origin dev
 git branch -r #查看远程分支
 git branch -a #查看本地以及远程分支 -a 表示all
+git branch -l #查看本地分支 -l 表示local
