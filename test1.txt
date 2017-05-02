@@ -35,3 +35,5 @@ git remote -v #查看远程分支详情
 #origin  git@github.com:imxugan/learngit.git (push)
 
 #显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址。
+
+git push origin master
