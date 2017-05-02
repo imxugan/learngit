@@ -24,3 +24,4 @@ git checkout dev #切换到dev分支，dev是分支的名称
 git branch -d dev #删除dev分支
 git stash #将当前工作现场储藏起来
 git satsh pop #将存储起来的工作区恢复，并删除stash内容
+git branch -D feature-vulcan #强制删除一个未合并的分支
