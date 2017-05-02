@@ -38,3 +38,4 @@ git remote -v #查看远程分支详情
 git push origin master
 git push origin dev
 git branch -r #查看远程分支
+git branch -a #查看本地以及远程分支 -a 表示all
