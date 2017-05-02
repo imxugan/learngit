@@ -36,3 +36,5 @@ git remote -v #查看远程分支详情
 #显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址。
 
 git push origin master
+git push origin dev
+git branch -r #查看远程分支
