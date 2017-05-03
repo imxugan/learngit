@@ -36,4 +36,5 @@ git remote -v #查看远程分支详情
 
 git push origin master
 git push origin dev
-git tag v1.0
+git tag v1.0 #给上一个commitid添加tag
+git show v1.0 #显示tag信息
