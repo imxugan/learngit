@@ -1,0 +1,42 @@
+this is Git test 
+git is good but is not easy learn
+git back
+git diff
+git log
+git log --pretty=oneline
+git reset --hard head^
+git reset --hard 18f0f
+git reflog
+git stage 
+git stage is temp area
+git diff is used for git add command execute  
+git stage is rember
+git stage once again
+git tracks changes of files
+git tracks again of files
+git diff head -- test1.txt
+git reset head test1.txt
+git reset head test1.txt 命令可以将添加到暂存区的数据修改退回到工作区
+git checkout -- test1.txt again
+git checkout
+git checkout -b dev #创建dev分支，并切换到dev分支
+git checkout dev #切换到dev分支，dev是分支的名称
+git branch -d dev #删除dev分支
+git stash #将当前工作现场储藏起来
+git stash pop 将当前存储恢复，并删除stash的内容
+git satsh pop #将存储起来的工作区恢复，并删除stash内容
+git branch -D feature-vulcan #强制删除一个未合并的分支
+git remote #查看远程分支
+git remote -v #查看远程分支详情
+#$ git remote -v
+#origin  git@github.com:imxugan/learngit.git (fetch)
+#origin  git@github.com:imxugan/learngit.git (push)
+
+#显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址。
+
+git push origin master
+git push origin dev
+git tag v1.0 #给上一个commitid添加tag
+git show v1.0 #显示tag信息
+git tag -a v1.1 -m 'v1.1版本 release'
+git push origin v1.1 #将v1.1这个标签推动到远程
