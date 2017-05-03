@@ -38,3 +38,4 @@ git push origin master
 git push origin dev
 git tag v1.0 #给上一个commitid添加tag
 git show v1.0 #显示tag信息
+git tag -a v1.1 -m 'v1.1版本 release'
