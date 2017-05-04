@@ -47,3 +47,5 @@ git check-ignore -v Demo.class #这句话的意思是检查git的ignore文件，
 git config alias.st status #为status 命令配置别名st
 git log -1 #显示最后一次提交信息
 git diff test111.txt
+#######git 第二遍学习#########
+git init #git 仓库初始化，会在的当前文件夹下生产一个.git的文件夹，这个文件夹就是来管理仓库中的文件的
