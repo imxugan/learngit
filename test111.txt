@@ -61,3 +61,4 @@ git diff commitid #查看工作区和指定commit的区别
 git log --pretty=oneline #查看log，以online行的形式，这个比git log 显示的信息更简洁
 	#撤销修改
 git checkout -- test111.txt #将暂存区中test111.txt文件中的内容覆盖工作区test111.txt文件中的内容
+git checkout master -- test111.txt  #将版本库中test111.txt文件中的内容覆盖工作区和暂存区test111.txt文件中的内容
