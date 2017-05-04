@@ -55,3 +55,4 @@ git diff --staged  test11.txt  #这个是git 1.6以前的版本中，对比暂�
 git log -3 #表示查看最近3次的commit信息
 git reset --hard head^ #回退到上一个版本
 git reset --hard commitid #回退到指定出commitid版本
+git reflog #查看历史命令,以便确定回到之前的某个版本
