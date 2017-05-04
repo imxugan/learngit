@@ -59,3 +59,5 @@ git reflog #查看历史命令,以便确定回到之前的某个版本
 git diff head #查看工作区和最近一次commit提交的区别
 git diff commitid #查看工作区和指定commit的区别
 git log --pretty=oneline #查看log，以online行的形式，这个比git log 显示的信息更简洁
+	#撤销修改
+git checkout -- test111.txt #将暂存区中test111.txt文件中的内容覆盖工作区test111.txt文件中的内容
