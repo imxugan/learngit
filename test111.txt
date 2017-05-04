@@ -53,3 +53,4 @@ git diff test111.txt #git diff 比较的是工作区和暂存区的差异
 git diff --cached  test111.txt #git diff --cached 比较的是test111.txt文件暂存区和最近一次commit之间的差异
 git diff --staged  test11.txt  #这个是git 1.6以前的版本中，对比暂存区和最近一commit之间的差异
 git log -3 #表示查看最近3次的commit信息
+git reset --hard head^ #回退到上一个版本
