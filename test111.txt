@@ -50,3 +50,4 @@ git diff test111.txt
 #######git 第二遍学习#########
 git init #git 仓库初始化，会在的当前文件夹下生产一个.git的文件夹，这个文件夹就是来管理仓库中的文件的
 git diff test111.txt #git diff 比较的是工作区和暂存区的差异
+git diff --cached  test111.txt #git diff --cached 比较的是test111.txt文件暂存区和最近一次commit之间的差异
