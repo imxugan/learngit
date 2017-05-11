@@ -68,4 +68,10 @@ git reset head test111.txt #已经将工作区test111.txt文件的修改加入�
 		       3.撤销版本库的修改，可以使用git reset --hard commitid 将版本库回退到指定的commitid版本
 ssh -T git@github.com  #这个命令是用于测试是否可以连接github,注意 -T 这里的T字母一定要大写
 ssh-keygen -t rsa -f ~/.ssh/id_rsa_oschina -C "imxugan@163.com"  #生成名称为id_rsa_oschina的ssh key ,注意这里的 -C C字母一定要大写
-#学些到添加远程库
+#学习到添加远程库
+git config -l --local #用于查看本地仓库的config文件中的配置信息
+git config user.name imxugan #给当前仓库配置user.name
+git config --unset user.name #用于删除当前仓库的的user.name
+git remote add origin https://github.com/imxugan/remote.git #在本地仓库添加一个远程仓库的地址
+git remote set-url origin git@github.com:imxugan/remote.git  #修改远程仓库的地址
+git branch --set-upstream-to origin/test  #将当前分支和远程分支对应起来，这样后面pull或者push,就不用指定具体的分支了
