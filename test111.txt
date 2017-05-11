@@ -75,3 +75,4 @@ git config --unset user.name #用于删除当前仓库的的user.name
 git remote add origin https://github.com/imxugan/remote.git #在本地仓库添加一个远程仓库的地址
 git remote set-url origin git@github.com:imxugan/remote.git  #修改远程仓库的地址
 git branch --set-upstream-to origin/test  #将当前分支和远程分支对应起来，这样后面pull或者push,就不用指定具体的分支了
+#git 学习创建和合并分支 2017/5/11
